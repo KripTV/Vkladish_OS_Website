@@ -6,13 +6,20 @@
     <title>ВкладышЪ ОС</title>
     <link rel="stylesheet" href="dop.css">
 </head>
-<body style="font-family:URW Gothic;">
-    <img src="paint/Vkladish_OS.png" alt="Vkladish_OS_Avatar">
+<body style="font-family:Arial">
+    <img src="paint/Vkladish_OS.png" alt="Vkladish_OS_Avatar" class="center">
+    <style> 
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+    </style>
     <div class="text">
         <h1 style="text-align: center";>ВкладышЪ ОС</h1>
         <div class="downtext">
             <p style="text-align: center;">ВкладышЪ ОС - карманная операционная система!</p>
-            <p style="text-align: center;"> <a href="https://clck.ru/38niRp" target="_blank"> ->Скачать<- </a></p>
         </div>
         <div class="ico">
         <link rel="apple-touch-icon" sizes="57x57" href="paint/ico/apple-icon-57x57.png">
@@ -33,5 +40,40 @@
         <meta name="msapplication-TileImage" content="paint/ico/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         </div>
+        
+        <title>Animated Button Example</title>
+<style>
+@keyframes animated-button {
+0% {background-color: red;}
+50% {background-color: blue;}
+100% {background-color: red;}
+}
+
+/* Стилизация кнопки */
+.animated-button {
+padding: 40px 100px;
+color: white;
+border: 20px solid black;
+font-size: 100px;
+
+cursor: pointer;
+border-radius: 5px;
+transition: background-color 0.3s ease, transform 0.3s ease; 
+animation: animated-button 5s infinite linear; /* Анимация */
+}
+
+
+/* Эффект при наведении */
+.animated-button:hover {
+
+transform: scale(1.1); /* Увеличение */
+}
+
+/* Центрирование кнопки на странице */
+</style>
+</head>
+<body>
+<!-- Кнопка с анимацией -->
+<div style="text-align:center"> </p><button class="animated-button" type="button" onclick="window.open('https://clck.ru/38niRp', '_blank');" >Скачать</button>
 </body>
 </html>
