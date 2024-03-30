@@ -4,7 +4,6 @@ body{
 
 .text {
     font-size: 60px;
-    font-family: "Times New Roman";
 }
 
 img {
@@ -17,6 +16,9 @@ img {
 a {
     color: white;
     text-decoration: none
+}
+.error-text_1 {
+    font-size: 60px;
 }
 
 /* margin-left: 34%;
