@@ -9,9 +9,16 @@ body{
     background-color: rgb(10, 109, 10);
 }
 
+.gtext {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+}
+
 .text {
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 img {
