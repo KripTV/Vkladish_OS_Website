@@ -5,10 +5,6 @@
     width: 50%;
       }
 
-body{
-    background-color: rgb(10, 109, 10);
-}
-
 .gtext {
     font-size: 100px;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,3 +45,57 @@ a {
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease; 
     }
+
+body {
+        background:
+        linear-gradient(-45deg, #ff0000, #000000, #0000ff);
+        background-size: 400% 400%;
+        height: 100vh;
+        animation: gradient 20s ease infinite;
+    }
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #556854d0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box:hover {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #556854d0;
+    box-shadow: 1px 1px 15px 1px black;
+    transition: 1s;
+}
+
+.but {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #004400;
+  transition: 0.5s;
+}
+          
+@keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+            }
+        50% {
+            background-position: 100% 50%;
+            }
+        100% {
+            background-position: 0% 50%;
+            }
+          }
